@@ -1,0 +1,23 @@
+{
+  "name": "freejobs",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">   <img alt=\"FreeJobs\" title=\"FreeJobs\" src=\".github/logo.svg\" width=\"220px\" /> </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Palamar",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.21",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
